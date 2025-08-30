@@ -98,11 +98,14 @@ setcount(counter);
     fontWeight: 'bold'
   }
   return (
-    <div >
-      <h1 className="text-4xl mt-24  flex justify-center">100 Dsa Questions</h1>
-      <h3 className="text-4xl mt-3 text-purple-800 align-items-center text-center  flex justify-center">
-        Crack Product based companies today
-      </h3>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
+  <h1 className="text-5xl font-bold text-gray-900 mt-16 text-center">
+    100 DSA Questions
+  </h1>
+  <h3 className="text-2xl mt-4 text-violet-700 font-medium text-center max-w-2xl">
+    Crack top product-based companies with structured problem-solving
+  </h3>
+
 {/* <div className="flex justify-center ">
       <div className="w3-light-grey w3-round mt-10 flex m-5 w-56 ">
         <div
@@ -151,10 +154,10 @@ setcount(counter);
           <Link
             target="_blank"
             className=" text-blue-700 font-nunito "
-            to="https://www.linkedin.com/in/Dev-chaitanya-tiwari-a30478200/"
+            to="https://www.linkedin.com/in/adityabisht07/"
           >
             {" "}
-            Dev Chaitanya tiwari &nbsp;
+            ADITYA BISHT &nbsp;
           </Link>
 
           <img
@@ -164,7 +167,6 @@ setcount(counter);
         </div>
         <div className="flex justify-center">
           {" "}
-          Made with Love | &nbsp;
           <img
             className="h-6 w-6"
             src="https://th.bing.com/th/id/R.968421ef5d794eb8cb555bb49dff4acd?rik=uxIlq%2bqiSDLTsA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1061%2f1924%2fproducts%2fStar_Emoji_grande.png%3fv%3d1480481043&ehk=1a3L6akK6vOPWmacDkHduTA1L5brh2me2a3w7ivd%2fHE%3d&risl=&pid=ImgRaw&r=0"
